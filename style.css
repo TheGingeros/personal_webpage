@@ -1,0 +1,20 @@
+html,
+body{
+    background-color:rgb(38, 37, 44)
+}
+h1{
+    color:white;
+    font-family: 'Rubik';
+    font-size: 50px;
+}
+.p1{
+    color:rgb(153, 153, 153);
+    font-family: 'Rubik';   
+    font-size: medium;
+}
+.h1_center{
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+}
