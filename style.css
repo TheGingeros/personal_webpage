@@ -25,7 +25,7 @@ h2{
     text-align: center;
 }
 .links{
-    width:30%;  
+    width:15%;  
     display:inline-block;
     background-color:rgb(38, 38, 54);
     color:rgb(255, 255, 255);
@@ -34,27 +34,28 @@ h2{
     border-style: solid;
     border-color: rgb(32, 32, 32);
     text-align: center;
+    height: auto;
+    cursor: pointer;
     
+}
+.links:hover{
+    opacity: 0.8;
 }
 .links_container{
     text-align: center;
+    width: auto;
+    margin: auto;
 }
 .fa {
     padding: 20px;
-    font-size: 50px;
-    width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
+    font-size: 1px;
 }
-.fa:hover {
-    opacity: 0.7;
+.fa-brands{
+    font-size: 75px;
+    margin: auto;
+    padding-top: 30px;
+    color: rgb(240, 240, 240);
 }
-
-.fa-linkedin {
-    color: white;
-}
-.fa-github {
-    color: white;
-}
-

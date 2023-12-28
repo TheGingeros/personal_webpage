@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/65d84047f9.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
     <title>Oskar Wladar Personal Page</title>
 </head>
 <body>
@@ -21,23 +22,23 @@
         </p>
     </div>
     <div class="links_container">
-        <div class="links">
-            <h2>
-                GitHub
-            </h2>
-            <a href="https://github.com/TheGingeros" target="_blank" class="fa fa-github"></a>
+        <div class="links" onclick="openLink('https://github.com/TheGingeros')">
+            <i class="fa-brands fa-github fa-50xs"></i>
+            <p class="p1">
+                Public Repositories
+            </p>
         </div>
-        <div class="links">
-            <h2>
-                UpWork
-            </h2>
-            <a href="#" class="fa fa-linkedin"></a>
+        <div class="links" onclick="openLink('https://www.upwork.com/freelancers/~01b1436711fd2ca58c')">
+            <i class="fa-brands fa-upwork"></i>
+            <p class="p1">
+                Business Profile
+            </p>
         </div>
-        <div class="links">
-            <h2>
-                LinkedIn
-            </h2>
-            <a href="#" class="fa fa-linkedin"></a>
+        <div class="links" onclick="openLink('https://www.linkedin.com/in/oskar-wlada%C5%99-29a0ba297/')">
+            <i class="fa-brands fa-linkedin"></i>
+            <p class="p1">
+                Business Profile
+            </p>
         </div>
     </div>
 </body>
