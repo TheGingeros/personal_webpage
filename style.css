@@ -59,3 +59,15 @@ h2{
     padding-top: 30px;
     color: rgb(240, 240, 240);
 }
+.bottom-text{
+    position: relative;
+    text-align: center;
+}
+.bottom-p{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:rgb(153, 153, 153);
+    font-family: 'Rubik';   
+    font-size: medium;
+}
