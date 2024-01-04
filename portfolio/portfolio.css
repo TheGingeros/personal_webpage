@@ -7,19 +7,6 @@ body{
     width: 100%;
     height: 100vh;
 }
-h1{
-    color: white;
-    font-size: 4rem;
-    max-width: 100%;
-    margin-bottom: 0px;
-}
-hr{
-    margin: 0px
-}
-p{
-    color: #9B9B9B;
-    margin: 10px;
-}
 #main{
     display: flex;
     align-items: center;
@@ -31,23 +18,48 @@ p{
     justify-content: center;
     align-items: center; 
 }
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: auto;
+}
+.header{
+    width: auto;
+    height: 5px;
+    padding: 10px;
+}
 .left, .right{
+    display: flex;
     height: 100%;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    text-align: center;
 }
 .left{
     margin-right: auto;
     border: 3px solid green;
+    display: flex;
+    flex-direction: column;
 }
+.img-top, .img-bottom{
+    flex: 1;
+    max-width: 80%;
+    max-height: 40%;
+    width: 80%;
+    height: 40%;
+    margin: 3%;
+}
+.img-top img, .img-bottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain
+}
+
 .right{
+    display: flex;
     margin-left: auto;  
     border: 3px solid yellow;
-}
-.header{
-    text-align: center;
-    justify-content: center;
-}
-.heading h1{
-    padding: 0;
 }
