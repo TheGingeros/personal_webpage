@@ -1,21 +1,19 @@
 html,
 body{
-    background-color:rgb(38, 37, 44)
+    background-color:rgb(38, 37, 44);
+    font-family: 'Rubik';
 }
 h1{
     color:white;
-    font-family: 'Rubik';
     font-size: 50px;
     font-weight: bold;
     
 }
 h2{
-    font-family: 'Rubik';
     font-weight: bold;
 }
 .p1{
     color:rgb(153, 153, 153);
-    font-family: 'Rubik';   
     font-size: medium;
 }
 .h1_center{
