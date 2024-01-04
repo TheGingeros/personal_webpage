@@ -1,8 +1,53 @@
 body{
     background-color: #2B2B2B;
     overflow-y: scroll;
+    font-family: 'Rubik';
 }
 .page{
     width: 100%;
     height: 100vh;
+}
+h1{
+    color: white;
+    font-size: 4rem;
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+hr{
+    margin: 0px
+}
+p{
+    color: #9B9B9B;
+    margin: 10px;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hasmat{
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center; 
+}
+.left, .right{
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    margin-right: auto;
+    border: 3px solid green;
+}
+.right{
+    margin-left: auto;  
+    border: 3px solid yellow;
+}
+.header{
+    text-align: center;
+    justify-content: center;
+}
+.heading h1{
+    padding: 0;
 }
