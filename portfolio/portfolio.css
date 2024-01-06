@@ -110,10 +110,10 @@ body{
 }
 .img-middle{
     flex: 1;
-    max-width: 80%;
-    max-height: 40%;
-    width: 80%;
-    height: 40%; 
+    max-width: 90%;
+    max-height: 60%;
+    width: 90%;
+    height: 60%; 
 }
 .img-middle img{
     width: 100%;
