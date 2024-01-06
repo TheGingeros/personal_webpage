@@ -97,11 +97,11 @@ body{
 }
 .img-top, .img-bottom{
     flex: 1;
-    max-width: 80%;
-    max-height: 45%;
-    width: 80%;
-    height: 45%;
-    margin: 3%;
+    max-width: 90%;
+    max-height: 47%;
+    width: 90%;
+    height: 47%;
+    margin: 1%;
 }
 .img-top img, .img-bottom img{
     width: 100%;
