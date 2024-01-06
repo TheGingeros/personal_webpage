@@ -31,21 +31,36 @@ document.addEventListener("DOMContentLoaded", function () {
     let timeout;
     // Toggle the navigation bar on burger icon click
     const burgerIcon = document.getElementById('burger-icon');
+    // Toggle the navigation bar on burger icon click
     burgerIcon.addEventListener('mouseenter', function () {
         clearTimeout(timeout);
+        navMenu.style.transition = 'opacity 0.5s ease-out';
         navMenu.style.display = (navMenu.style.display === 'none' || navMenu.style.display === '') ? 'flex' : 'none';
         burgerIcon.style.display = (navMenu.style.display === 'none') ? 'block' : 'none';
     });
+
     // Close the navigation bar when the user moves the mouse out of it
     navMenu.addEventListener('mouseleave', function () {
         clearTimeout(timeout);
+        navMenu.style.transition = 'opacity 0.5s ease-out';
         timeout = setTimeout(() => {
             navMenu.style.opacity = '0';
             setTimeout(() => {
                 navMenu.style.display = 'none';
-                burgerIcon.style.display = 'block';
+                burgerIcon.style.display = 'block'; // Show the burger icon after the menu fades out
+                navMenu.style.transition = ''; // Reset the transition property
                 navMenu.style.opacity = '1'; // Reset opacity for future appearance
             }, 500); // Match the transition duration
-        }, 125);
+        }, 600);
+    });
+
+    // Cancel the fade-out when the user moves the mouse back over the navigation bar
+    navMenu.addEventListener('mouseenter', function () {
+        clearTimeout(timeout);
+        // Reset the display and opacity when the user reenters during the fade-out
+        burgerIcon.style.display = 'none';
+        navMenu.style.display = 'flex';
+        navMenu.style.opacity = '1';
+        navMenu.style.transition = 'none'; // Remove the transition when reentering
     });
 });
