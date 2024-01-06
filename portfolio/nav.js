@@ -1,16 +1,21 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Get all section elements
-    const sections = document.querySelectorAll(".section");
+    const sections = document.querySelectorAll(".page");
   
     // Create navigation menu items dynamically
     const navMenu = document.createElement("div");
     navMenu.id = "navMenu";
   
     sections.forEach((section, index) => {
-      const menuItem = document.createElement("a");
-      menuItem.textContent = `Section ${index + 1}`;
-      menuItem.addEventListener("click", () => scrollToSection(section));
-      navMenu.appendChild(menuItem);
+        const h1Element = section.querySelector('h1');
+        if (!h1Element) {
+            return;
+        }
+        const h1Text = h1Element.textContent;
+        const menuItem = document.createElement("a");
+        menuItem.textContent = h1Text;
+        menuItem.addEventListener("click", () => scrollToSection(section));
+        navMenu.appendChild(menuItem);
     });
   
     // Append the navigation menu to the body
@@ -23,5 +28,4 @@ document.addEventListener("DOMContentLoaded", function () {
         behavior: "smooth",
       });
     }
-  });
-  
+});

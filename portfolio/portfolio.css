@@ -128,15 +128,22 @@ body{
     background-color: #333;
     padding: 10px;
     border-radius: 5px;
-  }
-  
+    display: flex;
+    flex-direction: column;
+    opacity: 0.1;
+}
+#navMenu:hover{
+    opacity: 0.5;
+}
 #navMenu a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 5px;
     cursor: pointer;
-  }
+    text-align: right;
+}
   
 #navMenu a:hover {
-    text-decoration: underline;
-  }
+    opacity: 0.85;
+    font-weight: bold;
+}
