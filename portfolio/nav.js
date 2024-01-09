@@ -17,7 +17,12 @@ document.addEventListener("DOMContentLoaded", function () {
         menuItem.addEventListener("click", () => scrollToSection(section));
         navMenu.appendChild(menuItem);
     });
-  
+    // Create return home element
+    const returnItem = document.createElement("a");
+    returnItem.addEventListener("click", () => returnHome());
+    returnItem.textContent = "Return to Home Page";
+    returnItem.id = "returnBtn";
+    navMenu.appendChild(returnItem);
     // Append the navigation menu to the body
     document.body.appendChild(navMenu);
   
@@ -27,6 +32,10 @@ document.addEventListener("DOMContentLoaded", function () {
         top: section.offsetTop,
         behavior: "smooth",
       });
+    }
+    // Function to return to home page
+    function returnHome() {
+        window.location.href = '../index.html';
     }
     let timeout;
     // Toggle the navigation bar on burger icon click
