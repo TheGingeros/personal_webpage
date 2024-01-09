@@ -19,6 +19,7 @@ body{
 }
 #main{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -152,6 +153,14 @@ body{
     color: #ffffff;
     opacity: 1.0;
 }
+#navMenu #returnBtn{
+    color: #d5d5d5;
+    font-weight: bold;
+    opacity: 1.0;
+}
+#navMenu #returnBtn:hover{
+    opacity: 0.75;
+}
 #burger-icon {
     position: fixed;
     top: 10px;
@@ -166,4 +175,14 @@ body{
     background: none;
     color: #808080;
     outline: none;
+}
+.footer{
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    margin: 0;
+}
+.footer p{
+    margin: 0;
+    color: #6e6e6e;
 }
