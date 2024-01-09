@@ -61,6 +61,7 @@ body{
 }
 .desc p{
     margin-top: 4px;
+    font-size: 1.4em;
 }
 .left, .right{
     display: flex;
