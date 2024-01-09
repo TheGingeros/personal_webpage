@@ -1,21 +1,19 @@
 html,
 body{
-    background-color:rgb(38, 37, 44)
+    background-color:rgb(38, 37, 44);
+    font-family: 'Rubik';
 }
 h1{
     color:white;
-    font-family: 'Rubik';
     font-size: 50px;
     font-weight: bold;
     
 }
 h2{
-    font-family: 'Rubik';
     font-weight: bold;
 }
 .p1{
     color:rgb(153, 153, 153);
-    font-family: 'Rubik';   
     font-size: medium;
 }
 .h1_center{
@@ -25,8 +23,7 @@ h2{
     text-align: center;
 }
 .links{
-    width:15%;  
-    display:inline-block;
+    width: 30%;  
     background-color:rgb(38, 38, 54);
     color:rgb(255, 255, 255);
     box-shadow: 3px 3px 10px rgb(22, 22, 22);
@@ -36,15 +33,18 @@ h2{
     text-align: center;
     height: auto;
     cursor: pointer;
-    
+    margin: 1px;
+    font-size: 3.5em;
 }
 .links:hover{
     opacity: 0.8;
 }
 .links_container{
-    text-align: center;
-    width: auto;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+    justify-content: center;
 }
 .fa {
     padding: 20px;
@@ -54,7 +54,6 @@ h2{
     font-size: auto;
 }
 .fa-brands{
-    font-size: 75px;
     margin: auto;
     padding-top: 30px;
     color: rgb(240, 240, 240);
@@ -71,8 +70,9 @@ h2{
     font-family: 'Rubik';   
     font-size: medium;
 }
-.links_container h3{
+.quick-links h3{
     color: white;
     font-family: 'Rubik';
-    font-weight: bold;
+    font-weight: normal;
+    text-align: center;
 }
