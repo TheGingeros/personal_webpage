@@ -139,9 +139,9 @@ h2{
 .exp-cards-area {
     flex: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     gap: 8px;
-    padding: 0 8px;
+    padding: 16px 8px;
 }
 
 .exp-cards {
@@ -226,6 +226,14 @@ h2{
     color: rgb(220, 220, 220);
 }
 
+.exp-card-title {
+    font-size: 1.3em;
+    color: rgb(180, 180, 180);
+    margin: 0 0 12px 0;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
 .exp-card.active {
     display: block;
 }
@@ -243,6 +251,7 @@ h2{
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
+    align-self: center;
     transition: opacity 0.2s;
     padding: 0 0 3px 0;
     line-height: 0;
