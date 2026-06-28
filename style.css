@@ -17,19 +17,20 @@ h2{
     font-size: medium;
 }
 .h1_center{
-    margin: auto;
-    width: 70%;
+    width: 42%;
+    margin-left: 17.5%;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 .hero_bio {
-    max-width: 600px;
-    margin: 20px auto;
-    font-size: 1.2em;
+    max-width: 100%;
+    margin: 20px 0;
+    font-size: 1em;
     line-height: 1.5;
     color: rgb(220, 220, 220);
-    text-align: center;
+    text-align: left;
+    padding-left: 25px;
 }
 
 .links_intro {
