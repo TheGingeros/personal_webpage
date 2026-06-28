@@ -7,7 +7,10 @@ h1{
     color:white;
     font-size: 50px;
     font-weight: bold;
-    
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    margin-left: 0;
 }
 h2{
     font-weight: bold;
@@ -23,6 +26,14 @@ h2{
     text-align: left;
 }
 
+.hero_subtitle {
+    font-size: 1.3em;
+    color: rgb(180, 180, 180);
+    margin: 4px 0 16px 0;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
 .hero_bio {
     max-width: 100%;
     margin: 20px 0;
@@ -30,7 +41,8 @@ h2{
     line-height: 1.5;
     color: rgb(220, 220, 220);
     text-align: left;
-    padding-left: 25px;
+    border-left: 2px solid rgb(120, 120, 140);
+    padding-left: 14px;
 }
 
 .links_intro {
