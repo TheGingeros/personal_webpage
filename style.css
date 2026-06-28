@@ -97,6 +97,21 @@ h2{
     margin-bottom: 8px;
     padding-top: 0;
 }
+.experience {
+    width: 42%;
+    margin-left: 17.5%;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+.experience-title {
+    font-size: 1.3em;
+    color: rgb(180, 180, 180);
+    margin: 4px 0 16px 0;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
 .bottom-text{
     position: relative;
     text-align: center;
