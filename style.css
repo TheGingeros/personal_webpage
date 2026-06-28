@@ -98,31 +98,47 @@ h2{
     padding-top: 0;
 }
 .experience {
-    width: 42%;
+    width: 55%;
     margin-left: 17.5%;
     padding: 10px;
     min-height: 100vh;
 }
 
-/* --- Timeline --- */
+/* --- Layout: timeline left, card right --- */
+.exp-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    margin-top: 28px;
+}
+
+/* --- Vertical Timeline --- */
 .exp-timeline {
     display: flex;
-    align-items: center;
-    margin: 28px 0 20px 0;
-    padding-left: 16px;
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 170px;
 }
 
 .exp-step {
     display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 12px;
     cursor: pointer;
+}
+
+.exp-step-left {
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
 }
 
 .exp-circle {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     border-radius: 50%;
     border: 2px solid rgb(90, 90, 110);
     background: transparent;
@@ -135,17 +151,45 @@ h2{
 }
 
 .exp-step.active .exp-circle {
-    width: 22px;
-    height: 22px;
+    width: 20px;
+    height: 20px;
     background: rgb(220, 185, 60);
     border-color: rgb(220, 185, 60);
     box-shadow: 0 0 10px rgba(220, 185, 60, 0.55);
 }
 
+.exp-step-label {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.exp-years {
+    font-size: 0.72em;
+    color: rgb(153, 153, 153);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.exp-team {
+    font-size: 0.88em;
+    color: rgb(200, 200, 200);
+    font-weight: 500;
+}
+
+.exp-step.active .exp-team {
+    color: rgb(220, 185, 60);
+}
+
+.exp-step.filled .exp-team {
+    color: rgb(200, 165, 50);
+}
+
 .exp-line {
-    flex: 1;
-    height: 2px;
+    width: 2px;
+    height: 30px;
     background: rgb(90, 90, 110);
+    margin-left: 10px;
     transition: background 0.35s ease;
 }
 
@@ -155,17 +199,16 @@ h2{
 
 /* --- Cards --- */
 .exp-nav {
+    flex: 1;
     display: flex;
     align-items: center;
     gap: 8px;
-    padding-left: 16px;
-    margin-top: 4px;
 }
 
 .exp-card-container {
     flex: 1;
     position: relative;
-    min-height: 180px;
+    min-height: 360px;
     background-color: rgb(38, 38, 54);
     box-shadow: 3px 3px 10px rgb(22, 22, 22);
     border: 1px solid rgb(32, 32, 32);
