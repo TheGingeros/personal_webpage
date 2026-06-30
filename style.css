@@ -103,6 +103,38 @@ h2{
     padding: 10px;
     min-height: 100vh;
 }
+.skills {
+    width: 55%;
+    margin-left: 17.5%;
+    padding: 10px;
+}
+
+
+.skills-rows {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px 18px;
+    background-color: rgb(31, 31, 45);
+    border: 1px solid rgb(55, 55, 70);
+    border-radius: 6px;
+    color: rgb(220, 220, 220);
+    font-size: 0.95em;
+    width: auto;
+}
 
 /* --- Layout: nav wraps the whole box --- */
 .exp-card-container {
@@ -227,6 +259,15 @@ h2{
 }
 
 .exp-card-title {
+    font-size: 1.75em;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin: 0 0 12px 0;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.exp-card-project {
     font-size: 1.3em;
     color: rgb(180, 180, 180);
     margin: 0 0 12px 0;
