@@ -4,7 +4,7 @@ function openLink(url) {
 }
 
 // --- Experience timeline ---
-const EXP_COUNT = 3;
+const EXP_COUNT = 4;
 let currentExp = 0;
 
 function updateExp(index) {
