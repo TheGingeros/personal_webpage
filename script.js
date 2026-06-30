@@ -43,3 +43,42 @@ document.addEventListener('DOMContentLoaded', () => {
 
     updateExp(0);
 });
+
+// 1. Find the empty container in your HTML
+const galleryContainer = document.getElementById('freelance-projects-overview');
+
+if (galleryContainer) {
+    // 2. Fetch the JSON file
+    fetch('data/projects.json')
+      .then(response => {
+        // Check if the file loaded successfully
+        if (!response.ok) {
+          throw new Error("Could not load the projects data.");
+        }
+        return response.json(); // Convert the file into a JavaScript array
+      })
+      .then(portfolioProjects => {
+        // 3. Create a variable to hold all the generated HTML
+        let galleryHTML = '';
+
+        // 4. Loop through the JSON data
+        portfolioProjects.forEach((project) => {
+          galleryHTML += `
+            <div class="project-thumbnail-card">
+              <p>${project.title}</p>
+              
+              <a href="${project.detailAnchor}">
+                <img src="${project.imageUrl}" alt="Showcase of ${project.title}">
+              </a>
+            </div>
+          `;
+        });
+
+        // 5. Inject the final HTML into the container
+        galleryContainer.innerHTML = galleryHTML;
+      })
+      .catch(error => {
+        console.error("Error loading projects:", error);
+        galleryContainer.innerHTML = "<p>Sorry, projects could not be loaded at this time.</p>";
+      });
+}
