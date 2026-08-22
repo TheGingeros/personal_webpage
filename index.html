@@ -50,80 +50,17 @@
             An overview of teams and projects I've been part of that shape my work experience and skills.
         </p>
 
-        <!-- Box -->
         <div class="exp-card-container">
-            <!-- Vertical Timeline Sidebar -->
-            <div class="exp-timeline">
-                <div class="exp-step" data-index="0">
-                    <div class="exp-step-left"><div class="exp-circle"></div></div>
-                    <div class="exp-step-label">
-                        <span class="exp-years">2024 — 2025</span>
-                        <span class="exp-team">Grillmeister Services</span>
-                    </div>
-                </div>
-                <div class="exp-line" data-index="0"></div>
-                <div class="exp-step" data-index="1">
-                    <div class="exp-step-left"><div class="exp-circle"></div></div>
-                    <div class="exp-step-label">
-                        <span class="exp-years">2025 — 2026</span>
-                        <span class="exp-team">MXC</span>
-                    </div>
-                </div>
-                <!-- <div class="exp-line" data-index="1"></div>
-                <div class="exp-step" data-index="2">
-                    <div class="exp-step-left"><div class="exp-circle"></div></div>
-                    <div class="exp-step-label">
-                        <span class="exp-years">2026 — Present</span>
-                        <span class="exp-team">Red Development</span>
-                    </div>
-                </div> -->
-                <div class="exp-line" data-index="1"></div>
-                <div class="exp-step" data-index="2">
-                    <div class="exp-step-left"><div class="exp-circle"></div></div>
-                    <div class="exp-step-label">
-                        <span class="exp-years">2022 — Present</span>
-                        <span class="exp-team">Freelancer</span>
-                    </div>
-                </div>
-            </div>
+            <!-- Vertical Timeline Sidebar (Will be populated by JS) -->
+            <div class="exp-timeline" id="exp-timeline-container"></div>
+            
             <!-- Cards area with arrows -->
             <div class="exp-cards-area">
                 <button class="exp-arrow" id="expPrev">&#8249;</button>
-                <div class="exp-cards">
-                    <div class="exp-card" data-index="0">
-                        <p class="exp-card-title">Grillmeister Services</p>
-                        <p class="hero_bio">
-                            3D Environment Artist. Developed two major projects for GTA V roleplay servers. Collaborated with the teams' members to create and deliver high quality products.
-                        </p>
-                        <p class="exp-card-project">Projects:</p>
-                        <p>to be added</p>
-                    </div>
-                    <div class="exp-card" data-index="1">
-                        <p class="exp-card-title">MXC - Markz3D Team</p>
-                        <p class="hero_bio">
-                            3D Interior Designer. Created interiors with attention to detail and optimalization. Learned more in detail on how to work in a professional team and deliver high quality 3D models. 
-                        </p>
-                        <p class="exp-card-project">Projects:</p>
-                        <p>to be added</p>
-                    </div>
-                    <!-- <div class="exp-card" data-index="2">
-                        <p class="exp-card-title">Red Development</p>
-                        <p class="hero_bio">3D Environment Artist. Developeing interiors and exteriors with attention to detail and optimalization. 
-
-                        </p>
-                        <p class="exp-card-project">Projects:</p>
-                        <p>Follow my discord to see updates on the current projects!</p>
-                    </div> -->
-                    <div class="exp-card" data-index="2">
-                        <p class="exp-card-title">Freelancer</p>
-                        <p class="hero_bio">
-                            3D Environment Artist, Level Designer and Prop Designer. Managed to create and develop props or small-scale interios and even large-scale private or exclusive projects tailored based on the needs of the client.
-                        </p>
-                        <p class="exp-card-project">Projects:</p>
-                        <div id="freelance-projects-overview" class="projects-grid"></div>
-                        
-                    </div>
-                </div>
+                
+                <!-- Cards will be injected here -->
+                <div class="exp-cards" id="exp-cards-container"></div>
+                
                 <button class="exp-arrow" id="expNext">&#8250;</button>
             </div>
         </div>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "grillmeister",
+    "name": "Grillmeister Services",
+    "shortName": "Grillmeister Services",
+    "years": "2024 — 2025",
+    "role": "3D Environment Artist",
+    "description": "Developed two major projects for GTA V roleplay servers. Collaborated with the teams' members to create and deliver high quality products."
+  },
+  {
+    "id": "mxc",
+    "name": "MXC - Markz3D Team",
+    "shortName": "MXC",
+    "years": "2025 — 2026",
+    "role": "3D Interior Designer",
+    "description": "Created interiors with attention to detail and optimalization. Learned more in detail on how to work in a professional team and deliver high quality 3D models."
+  },
+  {
+    "id": "freelancer",
+    "name": "Freelancer",
+    "shortName": "Freelancer",
+    "years": "2022 — Present",
+    "role": "3D Environment Artist, Level Designer and Prop Designer",
+    "description": "Managed to create and develop props or small-scale interios and even large-scale private or exclusive projects tailored based on the needs of the client."
+  }
+]
