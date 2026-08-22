@@ -3,7 +3,15 @@
     "id": "sheriff-station",
     "title": "Route 68 Sheriff Station",
     "teamId": "grillmeister",
-    "imageUrl": "portfolio/images/placeholder.png"
+    "imageUrl": "data/img/lssd_0.webp",
+    "detailImages": [
+      "data/img/lssd_1.jpg",
+      "data/img/lssd_2.jpg",
+      "data/img/lssd_3.jpg",
+      "data/img/lssd_4.jpg",
+      "data/img/lssd_5.jpg",
+      "data/img/lssd_6.jpg"
+    ]
   },
   {
     "id": "vespucci-apartments",
