@@ -17,7 +17,15 @@
     "id": "vespucci-apartments",
     "title": "Vespucci Apartments",
     "teamId": "grillmeister",
-    "imageUrl": "portfolio/images/placeholder.png"
+    "imageUrl": "data/img/vesp_apart_0.webp",
+    "detailImages": [
+      "data/img/vesp_apart_1.jpg",
+      "data/img/vesp_apart_2.jpg",
+      "data/img/vesp_apart_3.jpg",
+      "data/img/vesp_apart_4.jpg",
+      "data/img/vesp_apart_5.jpg",
+      "data/img/vesp_apart_6.jpg"
+    ]
   },
   {
     "id": "kebab Laundromat Business",
@@ -35,13 +43,29 @@
     "id": "lostmc-clubhouse",
     "title": "Lost MC Clubhouse AutoPart Store",
     "teamId": "freelancer",
-    "imageUrl": "portfolio/images/placeholder.png"
+    "imageUrl": "data/img/lostmc_0.webp",
+    "detailImages": [
+      "data/img/lostmc_1.jpg",
+      "data/img/lostmc_2.jpg",
+      "data/img/lostmc_3.jpg",
+      "data/img/lostmc_4.jpg",
+      "data/img/lostmc_5.jpg",
+      "data/img/lostmc_6.jpg"
+    ]
   },
   {
     "id": "autopart-store",
     "title": "AutoPart Store",
     "teamId": "freelancer",
-    "imageUrl": "portfolio/images/placeholder.png"
+    "imageUrl": "data/img/autopart_0.webp",
+    "detailImages": [
+      "data/img/autopart_1.jpg",
+      "data/img/autopart_2.jpg",
+      "data/img/autopart_3.jpg",
+      "data/img/autopart_4.jpg",
+      "data/img/autopart_5.jpg",
+      "data/img/autopart_6.jpg"
+    ]
   },
   {
     "id": "unionhall",
