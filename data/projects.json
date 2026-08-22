@@ -1,17 +1,5 @@
 [
   {
-    "id": "hazmat-tent-1",
-    "title": "Hazmat Tent",
-    "teamId": "freelancer",
-    "imageUrl": "portfolio/images/hazma_1 2.png"
-  },
-  {
-    "id": "hazmat-tent-2",
-    "title": "Another Project Example",
-    "teamId": "freelancer",
-    "imageUrl": "portfolio/images/hazma_1 2.png"
-  },
-  {
     "id": "sheriff-station",
     "title": "Route 68 Sheriff Station",
     "teamId": "grillmeister",
@@ -24,9 +12,33 @@
     "imageUrl": "portfolio/images/placeholder.png"
   },
   {
-    "id": "hazmat-tent-3",
-    "title": "Another anoather Project Example",
+    "id": "kebab Laundromat Business",
+    "title": "Amir Kebab Restaurant",
+    "teamId": "mxc",
+    "imageUrl": "portfolio/images/placeholder.png"
+  },
+  {
+    "id": "laundromat",
+    "title": "Laundromat Business",
+    "teamId": "mxc",
+    "imageUrl": "portfolio/images/placeholder.png"
+  },
+  {
+    "id": "lostmc-clubhouse",
+    "title": "Lost MC Clubhouse AutoPart Store",
     "teamId": "freelancer",
-    "imageUrl": "portfolio/images/hazma_1 2.png"
+    "imageUrl": "portfolio/images/placeholder.png"
+  },
+  {
+    "id": "autopart-store",
+    "title": "AutoPart Store",
+    "teamId": "freelancer",
+    "imageUrl": "portfolio/images/placeholder.png"
+  },
+  {
+    "id": "unionhall",
+    "title": "Union Hall",
+    "teamId": "freelancer",
+    "imageUrl": "portfolio/images/placeholder.png"
   }
 ]
