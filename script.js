@@ -62,13 +62,13 @@ function buildExperienceUI(teams, projects) {
         // 3. Generate Project Grid HTML for this team
         let projectsHTML = '';
         if (teamProjects.length > 0) {
-            // We use the exact 'projects-grid' class from your old HTML so your CSS horizontal scrolling applies
             projectsHTML += `<div id="${team.id}-projects-overview" class="projects-grid">`;
             teamProjects.forEach(project => {
                 projectsHTML += `
                     <div class="project-thumbnail-card">
                       <p>${project.title}</p>
-                      <a href="${project.detailAnchor}">
+                      <!-- Dynamically generate the anchor link using the ID -->
+                      <a href="#${project.id}">
                         <img src="${project.imageUrl}" alt="Showcase of ${project.title}">
                       </a>
                     </div>

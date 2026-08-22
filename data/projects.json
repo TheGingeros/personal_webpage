@@ -3,35 +3,30 @@
     "id": "hazmat-tent-1",
     "title": "Hazmat Tent",
     "teamId": "freelancer",
-    "imageUrl": "portfolio/images/hazma_1 2.png",
-    "detailAnchor": "#hazmat-detail"
+    "imageUrl": "portfolio/images/hazma_1 2.png"
   },
   {
     "id": "hazmat-tent-2",
     "title": "Another Project Example",
     "teamId": "freelancer",
-    "imageUrl": "portfolio/images/hazma_1 2.png",
-    "detailAnchor": "#hazmat-detail"
+    "imageUrl": "portfolio/images/hazma_1 2.png"
   },
   {
     "id": "sheriff-station",
     "title": "Route 68 Sheriff Station",
     "teamId": "grillmeister",
-    "imageUrl": "portfolio/images/placeholder.png",
-    "detailAnchor": "#grill-detail"
+    "imageUrl": "portfolio/images/placeholder.png"
   },
   {
     "id": "vespucci-apartments",
     "title": "Vespucci Apartments",
     "teamId": "grillmeister",
-    "imageUrl": "portfolio/images/placeholder.png",
-    "detailAnchor": "#grill-detail"
+    "imageUrl": "portfolio/images/placeholder.png"
   },
   {
     "id": "hazmat-tent-3",
     "title": "Another anoather Project Example",
     "teamId": "freelancer",
-    "imageUrl": "portfolio/images/hazma_1 2.png",
-    "detailAnchor": "#hazmat-detail"
+    "imageUrl": "portfolio/images/hazma_1 2.png"
   }
 ]
