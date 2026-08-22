@@ -71,6 +71,12 @@
     "id": "unionhall",
     "title": "Union Hall",
     "teamId": "freelancer",
-    "imageUrl": "portfolio/images/placeholder.png"
+    "imageUrl": "data/img/unionhall_0.webp",
+    "detailImages": [
+      "data/img/unionhall_1.jpg",
+      "data/img/unionhall_2.jpg",
+      "data/img/unionhall_3.jpg",
+      "data/img/unionhall_4.jpg"
+    ]
   }
 ]
