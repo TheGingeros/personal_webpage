@@ -6,19 +6,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover, interactive-widget=resizes-content"
     />
+    <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <meta name="theme-color" content="#000000" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
     <script>
       if (window.location.protocol !== 'file:') {
-        var l = document.createElement('link');
-        l.rel = 'manifest';
-        l.href = './manifest.webmanifest';
-        document.head.appendChild(l);
+        document.write('<link rel="manifest" href="./manifest.webmanifest" />');
       }
     </script>
     <title>Lambus</title>
-    <script defer src="./assets/index-C3NKEovz.js"></script>
+    <script defer src="./assets/index-D40PVO0U.js"></script>
   </head>
   <body>
     <div id="root"></div>
